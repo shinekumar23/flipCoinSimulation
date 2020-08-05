@@ -29,17 +29,17 @@ fi
 
 if [ $headsWon == $tailsWon ]
 then
-			 echo "Flipping again to choose the winner who have acheieved a difference of minimum 2 points"
-       	 while [[ $headsWon -lt $(($tailsWon+2)) && $tailsWon -lt $(($headsWon+2)) ]]
-        	 do
-							flipping
-			 done
-          if [ $headsWon -gt $tailsWon ]
-			 then
-            				echo "Heads won $headsWon times and TailsWon $tailsWon times. Heads won by a difference of 2 points"
-			 else
-            				echo "Tails won $tailsWon times and Heads Won $headsWon times. Tails won by a difference of 2 points"
-			 fi
+	 	echo "Flipping again to choose the winner who have acheieved a difference of minimum 2 points"
+       	 	while [[ $headsWon -lt $(($tailsWon+2)) && $tailsWon -lt $(($headsWon+2)) ]]
+         	do
+				flipping
+	        done
+         	if [ $headsWon -gt $tailsWon ]
+	 	then
+            			echo "Heads won $headsWon times and TailsWon $tailsWon times. Heads won by a difference of 2 points"
+	 	else
+            			echo "Tails won $tailsWon times and Heads Won $headsWon times. Tails won by a difference of 2 points"
+	 	fi
 fi
 
 
