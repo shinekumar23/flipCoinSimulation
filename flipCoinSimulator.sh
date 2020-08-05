@@ -2,7 +2,7 @@
 headsWon=0
 tailsWon=0
 
-for (( i=1; i<=10; i++ ))
+for (( i=1; i<=22; i++ ))
 do
 			flip=$((RANDOM%2))
 			case $flip in
@@ -14,8 +14,17 @@ do
             				;;
 			esac
 done
-echo "Heads Won $headsWon times"
-echo "Tails Won $tailsWon times"
+if [ $headsWon -gt $tailsWon ]
+then
+               echo "Heads Won by $(($headsWon-$tailsWon)) points"
+elif [ $tailsWon -gt $headsWon ]
+then
+               echo "Tails Won by $(($tailsWon-$headsWon)) points"
+else
+               echo "Its a tie. Both have $headsWon points"
+fi 
+
+
  
 
 
