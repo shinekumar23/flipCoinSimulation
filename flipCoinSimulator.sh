@@ -4,7 +4,6 @@ headsWon=0
 tailsWon=0
 
 
-echo ""
 for (( i=1; i<=22; i++ ))
 do
 			function flipping() {
