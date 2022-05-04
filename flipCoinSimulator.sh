@@ -36,7 +36,7 @@ then
 	 done
          if [ $headsWon -gt $tailsWon ]
 	 then
-          				echo "Heads won $headsWon times and TailsWon $tailsWon times. Heads won by a difference of 2 points"
+          				echo "Heads won $headsWon times and TailsWon $tailsWon times. Heads won by a difference of 2 points-hello"
          else
             				echo "Tails won $tailsWon times and Heads Won $headsWon times. Tails won by a difference of 2 points"
 	 fi
