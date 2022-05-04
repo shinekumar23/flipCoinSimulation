@@ -1,4 +1,4 @@
-#!/bin/bash -x
+#!/bin/bash
 headsWon=0
 tailsWon=0
 
