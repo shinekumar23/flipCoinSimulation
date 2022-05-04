@@ -6,7 +6,7 @@ for (( i=1; i<=10; i++ ))
 do
 			flip=$((RANDOM%2))
 			case $flip in
-         				0) echo "Heads is the winner"
+         				0) echo "Heads is the winner,yes"
             				((headsWon++))
             				;;
          				1) echo "Tails is the winner"
