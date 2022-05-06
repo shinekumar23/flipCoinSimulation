@@ -52,7 +52,7 @@ flip=$((RANDOM%2))
 case $flip in
          0) echo "Heads is the winner"
             ;;
-         1) echo "Tails is the winner-new-change-new-new-heelddojjgdjjjjjjdd"
+         1) echo "Tails is the winner-new-change-new-new-heelddojjghdjjjjjjdd"
             ;;
 esac
 >>>>>>> 157fcc6714df15102761291bdb8bc6651dbb8f5d
